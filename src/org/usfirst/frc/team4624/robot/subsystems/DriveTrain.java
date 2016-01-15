@@ -29,6 +29,6 @@ public class DriveTrain extends Subsystem {
 		if (y < .1 && y > -.1){
 			y = 0;
 		}
-		driveTrain.arcadeDrive(x, y, false);
+		driveTrain.arcadeDrive(-x, -y, false);
 	}
 }
